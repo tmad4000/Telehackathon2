@@ -22,6 +22,6 @@ text_get()
 
 **payment by text**   
 text_get_with_payment()
-<text the number / id --> TURN OFF THE LAMP\n235123123 is my online transaction number>   
+<text the number / id --> MAKE THE COFFEE MAKER ON AND MAKE COFFEE\n235123123 is my online transaction number>   
 
 
