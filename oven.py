@@ -76,7 +76,7 @@ def text_get():
 """ 
 text_get retrieves the user's text along with payment information
 """
-def text_get_with_payment(number):
+def text_get_with_payment():
 	user_input = ""
 	#this is a http rest request to retrieve the texts
 	headers = {'Authorization': 'Bearer ' + access_token, 'Accept': 'application/json'}
