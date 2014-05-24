@@ -12,15 +12,16 @@ set_port(0, "lamp")
 set_port(1, "coffee maker")   
 
 example usages:   
-1. control device by speech   
+*control device by speech*   
 voice_to_text("mypath/TURN ON THE LAMP.wav")   
     
-2. control device by text   
+*control device by text*   
 set_text_inbox(<number>)
 <text the number / id --> TURN OFF THE LAMP>   
 text_get()   
 
-3. payment by text   
+*payment by text*   
 text_get_with_payment()
+<text the number / id --> TURN OFF THE LAMP\n235123123 is my online transaction number>   
 
 
