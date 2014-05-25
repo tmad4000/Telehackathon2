@@ -28,4 +28,6 @@ text_get_with_payment()
 *testing:*   
 cd test   
 python *.py   
+   
 
+**see sample app at oven.html & sampleapp.py for more integration information**
