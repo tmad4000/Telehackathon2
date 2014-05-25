@@ -4,8 +4,8 @@ oven-dot-py
 oven-dot-py is a python api that is built on top of the AT&T library (SPEECH, SMS and PAYMENT), which enables any smartphones or websites to control hardware with ease.   
    
 *setup:*   
-bash getauth
-||copy down the token||
+bash getauth   
+||copy down the token||   
 python -i oven.py   
 set_token(||token||)   
 set_port(0, "lamp")   
@@ -16,7 +16,7 @@ example usages:
 voice_to_text("mypath/TURN ON THE LAMP.wav")   
     
 **control device by text**   
-set_text_inbox(||number||)
+set_text_inbox(||number||)   
 ||text the number / id --> TURN OFF THE LAMP||   
 text_get()   
 
